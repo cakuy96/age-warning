@@ -1,0 +1,57 @@
+#age-warning-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 10, 0.98);
+  color: #fff;
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+#age-warning-overlay h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ffc107;
+}
+#age-warning-overlay p {
+  font-size: 16px;
+  max-width: 500px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.age-btn-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn-age-unique {
+  display: inline-block;
+  padding: 14px 30px;
+  font-size: 17px;
+  border-radius: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  text-shadow: none !important;
+}
+.btn-age-confirm-custom {
+  background-color: #28a745 !important;
+  color: white !important;
+}
+.btn-age-confirm-custom:hover {
+  background-color: #218838 !important;
+}
+.btn-age-deny-custom {
+  background-color: #dc3545 !important;
+  color: white !important;
+}
+.btn-age-deny-custom:hover {
+  background-color: #c82333 !important;
+}
