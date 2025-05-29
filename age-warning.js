@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("denyBtn").addEventListener("click", function () {
     alert("Maaf, Anda tidak diperbolehkan mengakses situs ini.");
-    window.location.href = "https://www.dg21movie.com";
+    window.location.href = "/";
   });
 });
